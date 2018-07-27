@@ -18,7 +18,7 @@
       <pubDate>Fri, 27 Jul 2018 17:15:34 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name4/</guid>
-      <description></description>
+      <description>Brain-computer interface (BCI) system is used to realize the communication between the brain and machine. After decoding the brain state, the brain can directly control the machine to execute the specific task. Since the BCI system does not rely on the muscle and related neural pathway, it provides a new way to study the cognitive mechanism of brain. Moreover, BCI technology is also highly valued both in the medical and engineering field.</description>
     </item>
     
     <item>
@@ -27,7 +27,8 @@
       <pubDate>Fri, 27 Jul 2018 17:10:05 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name3/</guid>
-      <description></description>
+      <description>In this section, we applied Riemannian manifold to characterize the hyperspectral image and proposed the dimensionality reduction framework to learn local Riemannian embedding. The procedures of proposed method are summarized in following Figure. In our proposed framework, we first divide the hyperspectral image into multi spectral groups based on band clustering. Then, we learn the low dimensional local Riemannian embedding for each spectral group.
+The summary of group local Riemannian embedding (GLRE) algorithm.</description>
     </item>
     
     <item>
@@ -36,7 +37,11 @@
       <pubDate>Fri, 27 Jul 2018 15:54:48 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name2/</guid>
-      <description></description>
+      <description>Step1: The song is singed by the original singer.
+ Your browser does not support the audio tag.  Step2: The fundamental frequency of original song is extracted by the TANDEM-STRAIGHT tools. 
+Step3: We read the lyric (Speech). 
+Your browser does not support the audio tag.  Step4: The fundamental frequency of speech is extracted by the TANDEM-STRAIGHT tools. 
+Step5: The fundamental frequency of speech is changed to sing.</description>
     </item>
     
     <item>
@@ -45,7 +50,8 @@
       <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name/</guid>
-      <description></description>
+      <description>The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user input. Many interactive methods have the problem of that ask for large number of user input. To efficient produce intuitive segmentation under limited user input is important for industrial application.
+Illustration of random walks. a) Image represented as graph in random walk; b) background seeds (red line) and foreground seeds (blue line); c) the probability distribution of random walks and distribution of pixel (green point) whose probability range in [0.</description>
     </item>
     
   </channel>

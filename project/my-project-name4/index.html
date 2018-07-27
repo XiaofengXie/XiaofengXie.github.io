@@ -285,7 +285,140 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>Brain-computer interface (BCI) system is used to realize the communication between the brain and machine. After decoding the brain state, the brain can directly control the machine to execute the specific task. Since the BCI system does not rely on the muscle and related neural pathway, it provides a new way to study the cognitive mechanism of brain. Moreover, BCI technology is also highly valued both in the medical and engineering field.</p>
+
+<p>Currently, as one of the most popular spontaneous BCI, the motor imagery based BCI system has received great attention from many researchers. The motor imagery BCI records EEG signal during imagined movement, without using additional specialized stimulus equipment.
+However, the electrical activities of imagined movement are weak and low signal-to-noise ratio. How to decode the brain state effectively is the big challenge for the motor imagery based BCI system.
+Traditionally, motor imagery decoding is performed on the Euclidean space, and the Euclidean distance is used to directly deal with EEG signal. Unfortunately, Euclidean distance will easily result in representation bias for the intrinsic structure of EEG signal.</p>
+
+<p>Thus, in this thesis, we proposed a novel decoding framework based the covariance features of EEG signal. Since the covariance features with the form of symmetric positive definite (SPD) matrices lie on Riemannian manifold, we expect to utilize the Riemannian geometry to enhance the performance of decoding.</p>
+
+<figure>
+
+<img src="/img/MI_figure2.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 1: An illustration of the Riemannian manifold and tangent space.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>In proposed decoding framework, we regard the dimensionality reduction of covariance feature as feature extraction and then use advanced concepts and tools on the Riemannian geometry to design efficient classifier. Especially, the proposed dimensionality reduction method can preserve the SPD matrix structure and Riemannian geometrical property.
+Based on above framework, we proposed four decoding algorithms in this thesis.</p>
+
+<figure>
+
+<img src="/img/MI_figure1.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 2: The proposed framework of motor imagery system based on the covariance feature.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>The main contents and results are as follows:</p>
+
+<p>1) The high dimensionality of covariance feature easily leads to huge computational cost and over-fitting problem. Thus, we proposed an unsupervised dimensionality reduction algorithm based on the Riemannian distance preserving, namely bilinear Isometric Riemannian embedding (BIRE). The learned embedding with the form of symmetric positive definite is also a Riemannian manifold. Then, we use the tangent space of Riemannian manifold to design a classifier, namely embedding discriminate analysis (EDA). We test the performance of proposed method on two motor imagery datasets. Due to alleviating the huge computational cost and over-fitting problem, the proposed decoding method outperforms other competing methods.</p>
+
+<figure>
+
+<img src="/img/MI_figure3.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 3: Framework of EDA algorithm.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>2）Since the label of EEG carries much discriminate information, it can help to enhance the performance of decoding. Thus, to exploit the label information, we proposed a supervised dimensionality reduction algorithm based on the Riemannian distance preserving, namely bilinear sub-manifold learning (BSML).
+The BSMl algorithm calculates the Riemannian mean for each class covariance feature, and learns the bilinear mapping by minimizing the between-class distance loss. After learning a low-dimensional embedding, we design two classification algorithms using the advanced tools of Riemannian geometry. One algorithm is clustering based on Riemannian geodesic distance. The other algorithm maps all data points in the embedding into its tangent space, and then applies classical classifier to the tangent space. The experimental results on two motor imagery datasets reveal the effectiveness of the proposed method. Moreover, proposed method also exhibits strong robustness against a small training dataset, which often occurs in BCI studies.</p>
+
+<figure>
+
+<img src="/img/MI_figure4.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 4: An illustration of the Riemannian manifold (larger one) and intrinsic Riemannian sub-manifold (smaller one).</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>3） Different with above global dimensionality reduction methods, in this study, we expect to design the dimensionality reduction method based on locality preserving. We first construct a Riemannian graph to model the local characteristic of covariance features, and design a bilinear mapping for dimensionality reduction. Taking account of the uncertainty in EEG signal, we also introduce fuzzy weight on the bilinear mapping model to enhance performance of dimensionality reduction. Thus, a bilinear fuzzy discriminant discriminant locality preserving (BFDLP) is proposed to learn a low-dimensional embedding. After learning low-dimensional embedding by BFDLP, the extreme learning machine (ELM) classifier is performed on the tangent space of embedding. The experimental results on two datasets show that the proposed method has higher performance than the other competing algorithms.</p>
+
+<figure>
+
+<img src="/img/MI_figure5.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 5: Riemannian graph and local structure.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>4) In practice, some EEG channels are more important than the others in the processing of motor imagery BCI. For instance, $C_3,C_4$ electrodes are most important for left/right hand imagery movement. In this study, we proposed a bilinear locality preserving mapping model on the Riemannian graph with regularized term encoding weight information of EEG channels to learn a low-dimensional embedding, namely bilinear regularized locality preserving (BRLP). Furthermore, we also proposed a classification algorithm by executing ELM classifier on the tangent space of learned embedding. The experimental results on two datasets show that the proposed decoding method outperforms other competing methods.</p>
+
+<figure>
+
+<img src="/img/MI_figure6.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 6: The framework of the ELM-TS-RE algorithm.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>Some of experiments results were shown as follows.
+<figure>
+
+<img src="/img/MI_figure7.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 7: Comparison of classifcation accuracies of all studied algorithms on the motor imagery dataset via 10-fold cross-validation. a)  dataset IIa of BCI competition IV; b) in-house datasets.</h4>
+  
+</figcaption>
+
+</figure></p>
+
+<figure>
+
+<img src="/img/MI_figure8.jpg" />
+
+
+</figure>
+
+<figure>
+
+<img src="/img/MI_figure9.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Figure 8: Topographic maps of the spatial flters learned by BRLP, BLP and CSP methods for the left/right hand motor imagery data from the 9 subjects of dataset IIa of BCI competition IV.</h4>
+  
+</figcaption>
+
+</figure>
+
     </div>
 
     

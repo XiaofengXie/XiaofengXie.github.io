@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="We used the proposed Random Walks algorithm to segment the objective from an image.">
+  <meta name="description" content="The proposed Random Walks algorithm was applied to segment the objective from original image.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://XiaofengXie.github.io/project/my-project-name/">
@@ -81,7 +81,7 @@
   <meta property="og:site_name" content="Academic">
   <meta property="og:url" content="https://XiaofengXie.github.io/project/my-project-name/">
   <meta property="og:title" content="Image Segmentation | Academic">
-  <meta property="og:description" content="We used the proposed Random Walks algorithm to segment the objective from an image.">
+  <meta property="og:description" content="The proposed Random Walks algorithm was applied to segment the objective from original image.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-07-27T15:51:50&#43;08:00">
@@ -285,7 +285,79 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user
+input. Many interactive methods have the problem of that ask for large number of user input. To efficient produce intuitive segmentation under limited user input is important for industrial application.</p>
+
+<figure>
+
+<img src="/img/RW_figure1.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Illustration of random walks. a) Image represented as graph in random walk; b) background seeds (red line) and foreground seeds (blue line); c) the probability distribution of random walks and distribution of pixel (green point) whose probability range in [0.5 − δ; 0.5 + δ] (δ = 0.1).</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>In this paper, we reveal a positive feedback system on image segmentation to show the pixels of self-learning. Two approaches, iterative random walks (IRW) and boundary random walks (BRW), are proposed for segmentation potential, which is the key step in feedback system.</p>
+
+<figure>
+
+<img src="/img/RW_figure3.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Feedback system in random walks. The large number of background or foreground seeds and less number of boundary seeds can reduce the segmentation potential. The small segmentation potential lead to reliably segmentation. We proposed two approach to involve the positive feedback system, including iterative random walks (IRW) and boundary random walks (BRW).</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>Experiment results on image segmentation indicates that proposed algorithms can obtain more efficient input to random walks. And higher segmentation performance can be obtained by applying the iterative boundary random walks
+algorithm.</p>
+
+<figure>
+
+<img src="/img/RW_figure2-1.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Illustration of 3-step IRW algorithm. (a) the initialization of IRW(basic random walks algorithm); (b) first step of IRW; &copy; second step of IRW; (d) third step of IRW. From top to bottom: input image with background/foreground seeds, the probability maps by each step of IRW, the segmentation results by each step, close-up segmentation results, the histogram. SF and SB are number of new foreground and background seeds. SE is number of boundary seeds. Error is number of misclassified pixels.</h4>
+  
+</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="/img/RW_figure6.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>More examples for comparison between IBRW algorithm and random walks algorithm. From left to right: a) input images with background and foreground seeds b) the probability maps by random walks c) the segmentation results by random walks d) input images with new background and foreground seeds by IBRW method e) the probability maps by IBRW algorithm f) segmentation results by IBRW algorithm.</h4>
+  
+</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="/img/RW_figure10.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Comparing the segmentation results of the GrabCut algorithm, LazySnapping algorithm, constrained random walks algorithm and proposed algorithm. From top to bottom: the results of GrabCut, the results of LazySnapping, the results of constrained random walks, and the results of IBRW. The blue and red line denote foreground and background seeds, especially green line denote soft seeds in constrained random walks.</h4>
+  
+</figcaption>
+
+</figure>
+
     </div>
 
     

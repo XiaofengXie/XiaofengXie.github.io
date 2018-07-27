@@ -16,7 +16,140 @@
       <pubDate>Fri, 27 Jul 2018 17:15:34 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name4/</guid>
-      <description></description>
+      <description>&lt;p&gt;Brain-computer interface (BCI) system is used to realize the communication between the brain and machine. After decoding the brain state, the brain can directly control the machine to execute the specific task. Since the BCI system does not rely on the muscle and related neural pathway, it provides a new way to study the cognitive mechanism of brain. Moreover, BCI technology is also highly valued both in the medical and engineering field.&lt;/p&gt;
+
+&lt;p&gt;Currently, as one of the most popular spontaneous BCI, the motor imagery based BCI system has received great attention from many researchers. The motor imagery BCI records EEG signal during imagined movement, without using additional specialized stimulus equipment.
+However, the electrical activities of imagined movement are weak and low signal-to-noise ratio. How to decode the brain state effectively is the big challenge for the motor imagery based BCI system.
+Traditionally, motor imagery decoding is performed on the Euclidean space, and the Euclidean distance is used to directly deal with EEG signal. Unfortunately, Euclidean distance will easily result in representation bias for the intrinsic structure of EEG signal.&lt;/p&gt;
+
+&lt;p&gt;Thus, in this thesis, we proposed a novel decoding framework based the covariance features of EEG signal. Since the covariance features with the form of symmetric positive definite (SPD) matrices lie on Riemannian manifold, we expect to utilize the Riemannian geometry to enhance the performance of decoding.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure2.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 1: An illustration of the Riemannian manifold and tangent space.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;In proposed decoding framework, we regard the dimensionality reduction of covariance feature as feature extraction and then use advanced concepts and tools on the Riemannian geometry to design efficient classifier. Especially, the proposed dimensionality reduction method can preserve the SPD matrix structure and Riemannian geometrical property.
+Based on above framework, we proposed four decoding algorithms in this thesis.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 2: The proposed framework of motor imagery system based on the covariance feature.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;The main contents and results are as follows:&lt;/p&gt;
+
+&lt;p&gt;1) The high dimensionality of covariance feature easily leads to huge computational cost and over-fitting problem. Thus, we proposed an unsupervised dimensionality reduction algorithm based on the Riemannian distance preserving, namely bilinear Isometric Riemannian embedding (BIRE). The learned embedding with the form of symmetric positive definite is also a Riemannian manifold. Then, we use the tangent space of Riemannian manifold to design a classifier, namely embedding discriminate analysis (EDA). We test the performance of proposed method on two motor imagery datasets. Due to alleviating the huge computational cost and over-fitting problem, the proposed decoding method outperforms other competing methods.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure3.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 3: Framework of EDA algorithm.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;2）Since the label of EEG carries much discriminate information, it can help to enhance the performance of decoding. Thus, to exploit the label information, we proposed a supervised dimensionality reduction algorithm based on the Riemannian distance preserving, namely bilinear sub-manifold learning (BSML).
+The BSMl algorithm calculates the Riemannian mean for each class covariance feature, and learns the bilinear mapping by minimizing the between-class distance loss. After learning a low-dimensional embedding, we design two classification algorithms using the advanced tools of Riemannian geometry. One algorithm is clustering based on Riemannian geodesic distance. The other algorithm maps all data points in the embedding into its tangent space, and then applies classical classifier to the tangent space. The experimental results on two motor imagery datasets reveal the effectiveness of the proposed method. Moreover, proposed method also exhibits strong robustness against a small training dataset, which often occurs in BCI studies.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure4.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 4: An illustration of the Riemannian manifold (larger one) and intrinsic Riemannian sub-manifold (smaller one).&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;3） Different with above global dimensionality reduction methods, in this study, we expect to design the dimensionality reduction method based on locality preserving. We first construct a Riemannian graph to model the local characteristic of covariance features, and design a bilinear mapping for dimensionality reduction. Taking account of the uncertainty in EEG signal, we also introduce fuzzy weight on the bilinear mapping model to enhance performance of dimensionality reduction. Thus, a bilinear fuzzy discriminant discriminant locality preserving (BFDLP) is proposed to learn a low-dimensional embedding. After learning low-dimensional embedding by BFDLP, the extreme learning machine (ELM) classifier is performed on the tangent space of embedding. The experimental results on two datasets show that the proposed method has higher performance than the other competing algorithms.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure5.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 5: Riemannian graph and local structure.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;4) In practice, some EEG channels are more important than the others in the processing of motor imagery BCI. For instance, $C_3,C_4$ electrodes are most important for left/right hand imagery movement. In this study, we proposed a bilinear locality preserving mapping model on the Riemannian graph with regularized term encoding weight information of EEG channels to learn a low-dimensional embedding, namely bilinear regularized locality preserving (BRLP). Furthermore, we also proposed a classification algorithm by executing ELM classifier on the tangent space of learned embedding. The experimental results on two datasets show that the proposed decoding method outperforms other competing methods.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure6.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 6: The framework of the ELM-TS-RE algorithm.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Some of experiments results were shown as follows.
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure7.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 7: Comparison of classifcation accuracies of all studied algorithms on the motor imagery dataset via 10-fold cross-validation. a)  dataset IIa of BCI competition IV; b) in-house datasets.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure8.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure9.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 8: Topographic maps of the spatial flters learned by BRLP, BLP and CSP methods for the left/right hand motor imagery data from the 9 subjects of dataset IIa of BCI competition IV.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +158,43 @@
       <pubDate>Fri, 27 Jul 2018 17:10:05 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name3/</guid>
-      <description></description>
+      <description>&lt;p&gt;In this section, we applied Riemannian manifold to
+characterize the hyperspectral image and proposed the
+dimensionality reduction framework to learn local Riemannian embedding. The procedures of proposed method
+are summarized in following Figure. In our proposed framework,
+we first divide the hyperspectral image into multi spectral groups based on band clustering. Then, we learn the low dimensional local Riemannian embedding for each spectral group.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;The summary of group local Riemannian embedding (GLRE) algorithm. The low dimensional embedding is learned from the high dimensional hyperspectral image by following step. 1) dividing all spectral bands into multi groups; 2) constructing the region covariance matrix for each groups; 3) learning local Riemannian embedding for each groups; 4) merging all the embedding of groups into a final embedding.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;To assess and discuss the proposed methods, we designed
+an experiment in the following. The experiment presented
+the performance of classification for all studied algorithms.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure2.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure3.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -34,7 +203,59 @@
       <pubDate>Fri, 27 Jul 2018 15:54:48 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name2/</guid>
-      <description></description>
+      <description>&lt;p&gt;Step1: The song is singed by the original singer.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/S2S_figure2.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div align=center&gt;&lt;audio src=&#34;https://XiaofengXie.github.io/img/song.wav&#34; controls=&#34;controls&#34;&gt;
+Your browser does not support the audio tag.
+&lt;/audio&gt;&lt;/div&gt;
+
+&lt;p&gt;Step2: The fundamental frequency of original song is extracted by the TANDEM-STRAIGHT tools.
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/S2S_figure3.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Step3: We read the lyric (Speech).
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/S2S_figure5.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;div align=center&gt;&lt;audio src=&#34;https://XiaofengXie.github.io/img/jietuoreadshort.wav&#34; controls=&#34;controls&#34;&gt;
+Your browser does not support the audio tag.
+&lt;/audio&gt;&lt;/div&gt;
+
+&lt;p&gt;Step4: The fundamental frequency of speech is extracted by the TANDEM-STRAIGHT tools.
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/S2S_figure4.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Step5: The fundamental frequency of speech is changed to sing.
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/S2S_figure7.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;div align=center&gt;&lt;audio src=&#34;https://XiaofengXie.github.io/img/song_mysong.wav&#34; controls=&#34;controls&#34;&gt;
+Your browser does not support the audio tag.
+&lt;/audio&gt;&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -43,7 +264,79 @@
       <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name/</guid>
-      <description></description>
+      <description>&lt;p&gt;The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user
+input. Many interactive methods have the problem of that ask for large number of user input. To efficient produce intuitive segmentation under limited user input is important for industrial application.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Illustration of random walks. a) Image represented as graph in random walk; b) background seeds (red line) and foreground seeds (blue line); c) the probability distribution of random walks and distribution of pixel (green point) whose probability range in [0.5 − δ; 0.5 + δ] (δ = 0.1).&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;In this paper, we reveal a positive feedback system on image segmentation to show the pixels of self-learning. Two approaches, iterative random walks (IRW) and boundary random walks (BRW), are proposed for segmentation potential, which is the key step in feedback system.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure3.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Feedback system in random walks. The large number of background or foreground seeds and less number of boundary seeds can reduce the segmentation potential. The small segmentation potential lead to reliably segmentation. We proposed two approach to involve the positive feedback system, including iterative random walks (IRW) and boundary random walks (BRW).&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Experiment results on image segmentation indicates that proposed algorithms can obtain more efficient input to random walks. And higher segmentation performance can be obtained by applying the iterative boundary random walks
+algorithm.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure2-1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Illustration of 3-step IRW algorithm. (a) the initialization of IRW(basic random walks algorithm); (b) first step of IRW; &amp;copy; second step of IRW; (d) third step of IRW. From top to bottom: input image with background/foreground seeds, the probability maps by each step of IRW, the segmentation results by each step, close-up segmentation results, the histogram. SF and SB are number of new foreground and background seeds. SE is number of boundary seeds. Error is number of misclassified pixels.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure6.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;More examples for comparison between IBRW algorithm and random walks algorithm. From left to right: a) input images with background and foreground seeds b) the probability maps by random walks c) the segmentation results by random walks d) input images with new background and foreground seeds by IBRW method e) the probability maps by IBRW algorithm f) segmentation results by IBRW algorithm.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure10.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Comparing the segmentation results of the GrabCut algorithm, LazySnapping algorithm, constrained random walks algorithm and proposed algorithm. From top to bottom: the results of GrabCut, the results of LazySnapping, the results of constrained random walks, and the results of IBRW. The blue and red line denote foreground and background seeds, especially green line denote soft seeds in constrained random walks.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
