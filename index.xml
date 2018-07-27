@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Speech to Singing</title>
+      <link>https://XiaofengXie.github.io/project/my-project-name2/</link>
+      <pubDate>Fri, 27 Jul 2018 15:54:48 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/project/my-project-name2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Segmentation</title>
+      <link>https://XiaofengXie.github.io/project/my-project-name/</link>
+      <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/project/my-project-name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bilinear Regularized Locality Preserving Learning on Riemannian Graph for Motor Imagery BCI</title>
       <link>https://XiaofengXie.github.io/publication/my-paper-name2/</link>
       <pubDate>Fri, 27 Jul 2018 12:42:05 +0800</pubDate>

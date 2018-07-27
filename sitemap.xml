@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://XiaofengXie.github.io/project/my-project-name2/</loc>
+      <lastmod>2018-07-27T15:54:48+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://XiaofengXie.github.io/project/my-project-name/</loc>
+      <lastmod>2018-07-27T15:51:50+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://XiaofengXie.github.io/publication/my-paper-name2/</loc>
       <lastmod>2018-07-27T12:42:05+08:00</lastmod>
     </url>
@@ -98,6 +116,26 @@
     
     <url>
     
+      <loc>https://XiaofengXie.github.io/tags/graph-based-method/</loc>
+      <lastmod>2018-07-27T15:51:50+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://XiaofengXie.github.io/project/</loc>
+      <lastmod>2018-07-27T15:54:48+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://XiaofengXie.github.io/publication_types/</loc>
       <lastmod>2013-01-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -108,7 +146,18 @@
     
     <url>
     
+      <loc>https://XiaofengXie.github.io/tags/random-walks/</loc>
+      <lastmod>2018-07-27T15:51:50+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://XiaofengXie.github.io/tags/</loc>
+      <lastmod>2018-07-27T15:51:50+08:00</lastmod>
       <priority>0</priority>
     </url>
     

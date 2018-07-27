@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random Walks on Academic</title>
+    <link>https://XiaofengXie.github.io/tags/random-walks/</link>
+    <description>Recent content in Random Walks on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 27 Jul 2018 15:51:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://XiaofengXie.github.io/tags/random-walks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Image Segmentation</title>
+      <link>https://XiaofengXie.github.io/project/my-project-name/</link>
+      <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/project/my-project-name/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
