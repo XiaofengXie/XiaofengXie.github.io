@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic on Academic</title>
+    <link>https://XiaofengXie.github.io/</link>
+    <description>Recent content in Academic on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bilinear Regularized Locality Preserving Learning on Riemannian Graph for Motor Imagery BCI</title>
+      <link>https://XiaofengXie.github.io/publication/my-paper-name2/</link>
+      <pubDate>Fri, 27 Jul 2018 12:42:05 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/publication/my-paper-name2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motor Imagery Classification Based on Bilinear Sub-Manifold Learning of Symmetric Positive-Definite Matrices</title>
+      <link>https://XiaofengXie.github.io/publication/my-paper-name/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/publication/my-paper-name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis of Parkinson’s Disease in a Basal Ganglia Network Model</title>
+      <link>https://XiaofengXie.github.io/publication/my-paper-name3/</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/publication/my-paper-name3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
