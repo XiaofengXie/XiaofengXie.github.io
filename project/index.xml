@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 27 Jul 2018 15:54:48 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jul 2018 17:15:34 +0800</lastBuildDate>
     
 	<atom:link href="https://XiaofengXie.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Motor Imagery Classification</title>
+      <link>https://XiaofengXie.github.io/project/my-project-name4/</link>
+      <pubDate>Fri, 27 Jul 2018 17:15:34 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/project/my-project-name4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hyperspectral image classification</title>
+      <link>https://XiaofengXie.github.io/project/my-project-name3/</link>
+      <pubDate>Fri, 27 Jul 2018 17:10:05 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/project/my-project-name3/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Speech to Singing</title>

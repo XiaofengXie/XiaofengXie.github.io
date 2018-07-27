@@ -7,28 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 27 Jul 2018 15:51:50 +0800</lastBuildDate>
     
 	<atom:link href="https://XiaofengXie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Graph Based Method</title>
-      <link>https://XiaofengXie.github.io/tags/graph-based-method/</link>
-      <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
-      
-      <guid>https://XiaofengXie.github.io/tags/graph-based-method/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Random Walks</title>
-      <link>https://XiaofengXie.github.io/tags/random-walks/</link>
-      <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
-      
-      <guid>https://XiaofengXie.github.io/tags/random-walks/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
