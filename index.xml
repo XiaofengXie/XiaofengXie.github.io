@@ -187,12 +187,18 @@ we first divide the hyperspectral image into multi spectral groups based on band
 
 &lt;p&gt;To assess and discuss the proposed methods, we designed
 an experiment in the following. The experiment presented
-the performance of classification for all studied algorithms.&lt;/p&gt;
+the performance of all studied methods.&lt;/p&gt;
 
 &lt;figure&gt;
 
-&lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure2.jpg&#34; /&gt;
+&lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure4.jpg&#34; /&gt;
 
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;kNN classification maps for Indian Pines using data transformed by different dimensionality reduction methods. (a) Ground truth; (b) Original; &amp;copy; LPP; (d) LDA; (e) MPCA; (f) TLPP; (g) IPD-TLPP; (h) MTLPP; (i) GLRE.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
 
 &lt;/figure&gt;
 
@@ -220,9 +226,10 @@ the performance of classification for all studied algorithms.&lt;/p&gt;
 
 &lt;/figure&gt;
 
+&lt;p&gt;&lt;b&gt;The original song&lt;/b&gt;:
 &lt;div align=center&gt;&lt;audio src=&#34;https://XiaofengXie.github.io/img/song.wav&#34; controls=&#34;controls&#34;&gt;
 Your browser does not support the audio tag.
-&lt;/audio&gt;&lt;/div&gt;
+&lt;/audio&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;Step2: The fundamental frequency of original song is extracted by the TANDEM-STRAIGHT tools.
 &lt;figure&gt;
@@ -240,9 +247,10 @@ Your browser does not support the audio tag.
 
 &lt;/figure&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;b&gt;The speech&lt;/b&gt;:
 &lt;div align=center&gt;&lt;audio src=&#34;https://XiaofengXie.github.io/img/jietuoreadshort.wav&#34; controls=&#34;controls&#34;&gt;
 Your browser does not support the audio tag.
-&lt;/audio&gt;&lt;/div&gt;
+&lt;/audio&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;Step4: The fundamental frequency of speech is extracted by the TANDEM-STRAIGHT tools.
 &lt;figure&gt;
@@ -260,13 +268,12 @@ Your browser does not support the audio tag.
 
 &lt;/figure&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;b&gt;The speech changed to singing&lt;/b&gt;:
 &lt;div align=center&gt;&lt;audio src=&#34;https://XiaofengXie.github.io/img/song_mysong.wav&#34; controls=&#34;controls&#34;&gt;
 Your browser does not support the audio tag.
-&lt;/audio&gt;&lt;/div&gt;
+&lt;/audio&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;Lastly, we show a related demo to easy understand the proposed works:&lt;/p&gt;
-
-&lt;p&gt;The demo of TANDEM-STRAIGHT tools is shown in YouKu:
+&lt;p&gt;Lastly, we show a related demo to easy understand the proposed works. The demo of TANDEM-STRAIGHT tools is shown in YouKu:
 &lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ4Njc2MA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;The demo of TANDEM-STRAIGHT tools is shown in YouTube:

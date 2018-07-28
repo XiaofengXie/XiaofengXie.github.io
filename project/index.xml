@@ -38,10 +38,11 @@
       
       <guid>https://XiaofengXie.github.io/project/my-project-name2/</guid>
       <description>Step1: The song is singed by the original singer.
- Your browser does not support the audio tag.  Step2: The fundamental frequency of original song is extracted by the TANDEM-STRAIGHT tools. 
+ The original song: Your browser does not support the audio tag. 
+Step2: The fundamental frequency of original song is extracted by the TANDEM-STRAIGHT tools. 
 Step3: We read the lyric (Speech). 
-Your browser does not support the audio tag.  Step4: The fundamental frequency of speech is extracted by the TANDEM-STRAIGHT tools. 
-Step5: The fundamental frequency of speech is changed to sing.</description>
+The speech: Your browser does not support the audio tag. 
+Step4: The fundamental frequency of speech is extracted by the TANDEM-STRAIGHT tools.</description>
     </item>
     
     <item>
