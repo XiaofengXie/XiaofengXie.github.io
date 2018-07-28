@@ -186,10 +186,10 @@ we first divide the hyperspectral image into multi spectral groups based on band
 &lt;/figure&gt;
 
 &lt;p&gt;To assess and discuss the proposed methods, we designed
-an experiment in the following. The experiment presented
+an experiment in the following. We first presented
 the performance of all studied methods.&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;
+&lt;figure&gt;
 
 &lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure4.jpg&#34; /&gt;
 
@@ -199,6 +199,14 @@ the performance of all studied methods.&lt;/p&gt;
   &lt;h4&gt;kNN classification maps for Indian Pines using data transformed by different dimensionality reduction methods. (a) Ground truth; (b) Original; &amp;copy; LPP; (d) LDA; (e) MPCA; (f) TLPP; (g) IPD-TLPP; (h) MTLPP; (i) GLRE.&lt;/h4&gt;
   
 &lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;The classification results of each classes of hyperspectral image are summarized in the following table. It is clearly that the proposed GLRE outperformed other methods.
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure5.jpg&#34; /&gt;
+
 
 &lt;/figure&gt;&lt;/p&gt;
 </description>
