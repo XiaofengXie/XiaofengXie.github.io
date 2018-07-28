@@ -189,7 +189,7 @@ we first divide the hyperspectral image into multi spectral groups based on band
 an experiment in the following. The experiment presented
 the performance of all studied methods.&lt;/p&gt;
 
-&lt;figure&gt;
+&lt;p&gt;&lt;figure&gt;
 
 &lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure4.jpg&#34; /&gt;
 
@@ -200,14 +200,7 @@ the performance of all studied methods.&lt;/p&gt;
   
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://XiaofengXie.github.io/img/HSI_figure3.jpg&#34; /&gt;
-
-
-&lt;/figure&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
