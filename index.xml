@@ -75,12 +75,12 @@ The BSMl algorithm calculates the Riemannian mean for each class covariance feat
 
 &lt;figure&gt;
 
-&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure4.jpg&#34; /&gt;
+&lt;img src=&#34;https://XiaofengXie.github.io/img/MI_figure13.jpg&#34; /&gt;
 
 
 
 &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Figure 4: An illustration of the Riemannian manifold (larger one) and intrinsic Riemannian sub-manifold (smaller one).&lt;/h4&gt;
+  &lt;h4&gt;Figure 4:An illustration of clustering on Riemannian manifold and Euclidean&lt;/h4&gt;
   
 &lt;/figcaption&gt;
 
@@ -149,6 +149,14 @@ The BSMl algorithm calculates the Riemannian mean for each class covariance feat
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
+
+&lt;p&gt;Lastly, we show a related demo to easy understand the proposed works:&lt;/p&gt;
+
+&lt;p&gt;The demo of proposed BCI system is shown in YouKu:
+&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ5MDAyMA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;The demo of proposed BCI system is shown in YouKu:
+&lt;div align=center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Y9cOgVWLK3E&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -255,11 +263,19 @@ Your browser does not support the audio tag.
 &lt;div align=center&gt;&lt;audio src=&#34;https://XiaofengXie.github.io/img/song_mysong.wav&#34; controls=&#34;controls&#34;&gt;
 Your browser does not support the audio tag.
 &lt;/audio&gt;&lt;/div&gt;
+
+&lt;p&gt;Lastly, we show a related demo to easy understand the proposed works:&lt;/p&gt;
+
+&lt;p&gt;The demo of TANDEM-STRAIGHT tools is shown in YouKu:
+&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ4Njc2MA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;The demo of TANDEM-STRAIGHT tools is shown in YouTube:
+&lt;div align=center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NZIEHBi-Xbg&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Image Segmentation</title>
+      <title>Image Segmentation 2D/3D</title>
       <link>https://XiaofengXie.github.io/project/my-project-name/</link>
       <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
       
@@ -297,6 +313,8 @@ input. Many interactive methods have the problem of that ask for large number of
 
 &lt;p&gt;Experiment results on image segmentation indicates that proposed algorithms can obtain more efficient input to random walks. And higher segmentation performance can be obtained by applying the iterative boundary random walks
 algorithm.&lt;/p&gt;
+
+&lt;p&gt;2D segmentation results:&lt;/p&gt;
 
 &lt;figure&gt;
 
@@ -336,6 +354,41 @@ algorithm.&lt;/p&gt;
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
+
+&lt;p&gt;3D segmentation results:&lt;/p&gt;
+
+&lt;p&gt;We expect to segment the tooth from a 3D CT image.
+The 3D CT image is shown as following figure:
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure13.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;We first use the random walks to segment the 2D tooth from a slice of CT image.
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure11.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, the 2D results are regarded as the seed of the level-set method and we can obtain the 3D segmentation results.
+&lt;figure&gt;
+
+&lt;img src=&#34;https://XiaofengXie.github.io/img/RW_figure12.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Lastly, we show a related demo to easy understand the proposed works:&lt;/p&gt;
+
+&lt;p&gt;The demo of 2D and 3D image segmentation by YouKu:
+&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ4MzgxNg==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;The demo of 2D and 3D image segmentation by YouTube:
+&lt;div align=center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/j6aEjq4LUcg&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
