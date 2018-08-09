@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic</title>
+    <title>Homes on Xiaofeng Xie</title>
     <link>https://XiaofengXie.github.io/home/</link>
-    <description>Recent content in Homes on Academic</description>
+    <description>Recent content in Homes on Xiaofeng Xie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -59,7 +59,7 @@ His current works focus on the motor imagery classification and hyperspectral im
     </item>
     
     <item>
-      <title>Conference Publications</title>
+      <title>arXiv &amp; Conference</title>
       <link>https://XiaofengXie.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       

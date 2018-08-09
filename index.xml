@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Academic</title>
+    <title>Xiaofeng Xie on Xiaofeng Xie</title>
     <link>https://XiaofengXie.github.io/</link>
-    <description>Recent content in Academic on Academic</description>
+    <description>Recent content in Xiaofeng Xie on Xiaofeng Xie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -11,12 +11,33 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Bilinear Fuzzy Discriminant Analysis and Locality Preserving Embedding Learning for Motor Imagery Classification</title>
+      <link>https://XiaofengXie.github.io/publication/my-paper-name5/</link>
+      <pubDate>Thu, 09 Aug 2018 19:58:13 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/publication/my-paper-name5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Iterative Boundary Random Walks Algorithm for Interactive Image Segmentation</title>
+      <link>https://XiaofengXie.github.io/publication/my-paper-name4/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/publication/my-paper-name4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Motor Imagery Classification</title>
       <link>https://XiaofengXie.github.io/project/my-project-name4/</link>
       <pubDate>Fri, 27 Jul 2018 17:15:34 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name4/</guid>
-      <description>&lt;p&gt;Brain-computer interface (BCI) system is used to realize the communication between the brain and machine. After decoding the brain state, the brain can directly control the machine to execute the specific task. Since the BCI system does not rely on the muscle and related neural pathway, it provides a new way to study the cognitive mechanism of brain. Moreover, BCI technology is also highly valued both in the medical and engineering field.&lt;/p&gt;
+      <description>&lt;p&gt;The demo of proposed BCI system is shown as follows (YouKu):
+&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ5MDAyMA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Brain-computer interface (BCI) system is used to realize the communication between the brain and machine. After decoding the brain state, the brain can directly control the machine to execute the specific task. Since the BCI system does not rely on the muscle and related neural pathway, it provides a new way to study the cognitive mechanism of brain. Moreover, BCI technology is also highly valued both in the medical and engineering field.&lt;/p&gt;
 
 &lt;p&gt;Currently, as one of the most popular spontaneous BCI, the motor imagery based BCI system has received great attention from many researchers. The motor imagery BCI records EEG signal during imagined movement, without using additional specialized stimulus equipment.
 However, the electrical activities of imagined movement are weak and low signal-to-noise ratio. How to decode the brain state effectively is the big challenge for the motor imagery based BCI system.
@@ -152,10 +173,7 @@ The BSMl algorithm calculates the Riemannian mean for each class covariance feat
 
 &lt;p&gt;Lastly, we show a related demo to easy understand the proposed works:&lt;/p&gt;
 
-&lt;p&gt;The demo of proposed BCI system is shown in YouKu:
-&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ5MDAyMA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;The demo of proposed BCI system is shown in YouKu:
+&lt;p&gt;The demo of proposed BCI system is shown in YouTube:
 &lt;div align=center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Y9cOgVWLK3E&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
@@ -218,7 +236,10 @@ the performance of all studied methods.&lt;/p&gt;
       <pubDate>Fri, 27 Jul 2018 15:54:48 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name2/</guid>
-      <description>&lt;p&gt;Step1: The song is singed by the original singer.&lt;/p&gt;
+      <description>&lt;p&gt;The demo of TANDEM-STRAIGHT tools is shown as follows (YouKu):
+&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ4Njc2MA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Step1: The song is singed by the original singer.&lt;/p&gt;
 
 &lt;figure&gt;
 
@@ -274,8 +295,7 @@ Your browser does not support the audio tag.
 Your browser does not support the audio tag.
 &lt;/audio&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;Lastly, we show a related demo to easy understand the proposed works. The demo of TANDEM-STRAIGHT tools is shown in YouKu:
-&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ4Njc2MA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Lastly, we show a related demo to easy understand the proposed works.&lt;/p&gt;
 
 &lt;p&gt;The demo of TANDEM-STRAIGHT tools is shown in YouTube:
 &lt;div align=center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NZIEHBi-Xbg&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
@@ -288,7 +308,10 @@ Your browser does not support the audio tag.
       <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name/</guid>
-      <description>&lt;p&gt;The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user
+      <description>&lt;p&gt;The demo of 2D and 3D image segmentation is shown as follows (YouKu):
+&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ4MzgxNg==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user
 input. Many interactive methods have the problem of that ask for large number of user input. To efficient produce intuitive segmentation under limited user input is important for industrial application.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -392,9 +415,6 @@ The 3D CT image is shown as following figure:
 
 &lt;p&gt;Lastly, we show a related demo to easy understand the proposed works:&lt;/p&gt;
 
-&lt;p&gt;The demo of 2D and 3D image segmentation by YouKu:
-&lt;div align=center&gt;&lt;iframe height=498 width=510 src=&#39;http://player.youku.com/embed/XMzc1MDQ4MzgxNg==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
-
 &lt;p&gt;The demo of 2D and 3D image segmentation by YouTube:
 &lt;div align=center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/j6aEjq4LUcg&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
@@ -406,7 +426,8 @@ The 3D CT image is shown as following figure:
       <pubDate>Fri, 27 Jul 2018 12:42:05 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/publication/my-paper-name2/</guid>
-      <description></description>
+      <description>&lt;p&gt;In off-line training of motor imagery-based brain-computer interfaces (BCIs), to enhance the generalization performance of the learned classifier, the local information contained in test data could be used to improve the performance of motor imagery as well. Further considering that the covariance matrices of electroencephalogram (EEG) signal lie on Riemannian manifold, in this paper, we construct a Riemannian graph to incorporate the information of training and test data into processing. The adjacency and weight in Riemannian graph are determined by the geodesic distance of Riemannian manifold. Then, a new graph embedding algorithm, called bilinear regularized locality preserving (BRLP), is derived upon the Riemannian graph for addressing the problems of high dimensionality frequently arising in BCIs. With a proposed regularization term encoding prior information of EEG channels, the BRLP could obtain more robust performance. Finally, an efficient classification algorithm based on extreme learning machine is proposed to perform on the tangent space of learned embedding. Experimental evaluations on the BCI competition and in-house data sets reveal that the proposed algorithms could obtain significantly higher performance than many competition algorithms after using same filter process.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -415,7 +436,8 @@ The 3D CT image is shown as following figure:
       <pubDate>Thu, 07 Jul 2016 00:00:00 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/publication/my-paper-name/</guid>
-      <description></description>
+      <description>&lt;p&gt;In motor imagery brain-computer interfaces (BCIs), the symmetric positive-definite (SPD) covariance matrices of electroencephalogram (EEG) signals carry important discriminative information. In this paper, we intend to classify motor imagery EEG signals by exploiting the fact that the space of SPD matrices endowed with Riemannian distance is a high-dimensional Riemannian manifold. To alleviate the overfitting and heavy computation problems associated with conventional classification methods on high-dimensional manifold, we propose a framework for intrinsic sub-manifold learning from a high-dimensional Riemannian manifold. Considering a special case of SPD space, a simple yet efficient bilinear sub-manifold learning (BSML) algorithm is derived to learn the intrinsic sub-manifold by identifying a bilinear mapping that maximizes the preservation of the local geometry and global structure of the original manifold. Two BSML-based classification algorithms are further proposed to classify the data on a learned intrinsic sub-manifold. Experimental evaluation of the classification of EEG revealed that the BSML method extracts the intrinsic sub-manifold approximately 5× faster and with higher classification accuracy compared with competing algorithms. The BSML also exhibited strong robustness against a small training dataset, which often occurs in BCI studies.&lt;/p&gt;
+</description>
     </item>
     
     <item>

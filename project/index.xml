@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Academic</title>
+    <title>Projects on Xiaofeng Xie</title>
     <link>https://XiaofengXie.github.io/project/</link>
-    <description>Recent content in Projects on Academic</description>
+    <description>Recent content in Projects on Xiaofeng Xie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,8 @@
       <pubDate>Fri, 27 Jul 2018 17:15:34 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name4/</guid>
-      <description>Brain-computer interface (BCI) system is used to realize the communication between the brain and machine. After decoding the brain state, the brain can directly control the machine to execute the specific task. Since the BCI system does not rely on the muscle and related neural pathway, it provides a new way to study the cognitive mechanism of brain. Moreover, BCI technology is also highly valued both in the medical and engineering field.</description>
+      <description>The demo of proposed BCI system is shown as follows (YouKu): 
+Brain-computer interface (BCI) system is used to realize the communication between the brain and machine. After decoding the brain state, the brain can directly control the machine to execute the specific task. Since the BCI system does not rely on the muscle and related neural pathway, it provides a new way to study the cognitive mechanism of brain. Moreover, BCI technology is also highly valued both in the medical and engineering field.</description>
     </item>
     
     <item>
@@ -37,7 +38,8 @@
       <pubDate>Fri, 27 Jul 2018 15:54:48 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name2/</guid>
-      <description>Step1: The song is singed by the original singer.
+      <description>The demo of TANDEM-STRAIGHT tools is shown as follows (YouKu): 
+Step1: The song is singed by the original singer.
  The original song: Your browser does not support the audio tag. 
 Step2: The fundamental frequency of original song is extracted by the TANDEM-STRAIGHT tools. 
 Step3: We read the lyric (Speech). 
@@ -51,7 +53,8 @@ Step4: The fundamental frequency of speech is extracted by the TANDEM-STRAIGHT t
       <pubDate>Fri, 27 Jul 2018 15:51:50 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/project/my-project-name/</guid>
-      <description>The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user input. Many interactive methods have the problem of that ask for large number of user input. To efficient produce intuitive segmentation under limited user input is important for industrial application.
+      <description>The demo of 2D and 3D image segmentation is shown as follows (YouKu): 
+The interactive image segmentation algorithm can provide an intelligent ways to understand the intention of user input. Many interactive methods have the problem of that ask for large number of user input. To efficient produce intuitive segmentation under limited user input is important for industrial application.
 Illustration of random walks. a) Image represented as graph in random walk; b) background seeds (red line) and foreground seeds (blue line); c) the probability distribution of random walks and distribution of pixel (green point) whose probability range in [0.</description>
     </item>
     

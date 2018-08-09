@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Academic</title>
+    <title>Publications on Xiaofeng Xie</title>
     <link>https://XiaofengXie.github.io/publication/</link>
-    <description>Recent content in Publications on Academic</description>
+    <description>Recent content in Publications on Xiaofeng Xie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -13,12 +13,30 @@
     
     
     <item>
+      <title>Bilinear Fuzzy Discriminant Analysis and Locality Preserving Embedding Learning for Motor Imagery Classification</title>
+      <link>https://XiaofengXie.github.io/publication/my-paper-name5/</link>
+      <pubDate>Thu, 09 Aug 2018 19:58:13 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/publication/my-paper-name5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Iterative Boundary Random Walks Algorithm for Interactive Image Segmentation</title>
+      <link>https://XiaofengXie.github.io/publication/my-paper-name4/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://XiaofengXie.github.io/publication/my-paper-name4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bilinear Regularized Locality Preserving Learning on Riemannian Graph for Motor Imagery BCI</title>
       <link>https://XiaofengXie.github.io/publication/my-paper-name2/</link>
       <pubDate>Fri, 27 Jul 2018 12:42:05 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/publication/my-paper-name2/</guid>
-      <description></description>
+      <description>In off-line training of motor imagery-based brain-computer interfaces (BCIs), to enhance the generalization performance of the learned classifier, the local information contained in test data could be used to improve the performance of motor imagery as well. Further considering that the covariance matrices of electroencephalogram (EEG) signal lie on Riemannian manifold, in this paper, we construct a Riemannian graph to incorporate the information of training and test data into processing. The adjacency and weight in Riemannian graph are determined by the geodesic distance of Riemannian manifold.</description>
     </item>
     
     <item>
@@ -27,7 +45,7 @@
       <pubDate>Thu, 07 Jul 2016 00:00:00 +0800</pubDate>
       
       <guid>https://XiaofengXie.github.io/publication/my-paper-name/</guid>
-      <description></description>
+      <description>In motor imagery brain-computer interfaces (BCIs), the symmetric positive-definite (SPD) covariance matrices of electroencephalogram (EEG) signals carry important discriminative information. In this paper, we intend to classify motor imagery EEG signals by exploiting the fact that the space of SPD matrices endowed with Riemannian distance is a high-dimensional Riemannian manifold. To alleviate the overfitting and heavy computation problems associated with conventional classification methods on high-dimensional manifold, we propose a framework for intrinsic sub-manifold learning from a high-dimensional Riemannian manifold.</description>
     </item>
     
     <item>
